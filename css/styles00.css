@@ -1,0 +1,151 @@
+html {
+	font: 100%/1.5em Arial, 'PT Sans', sans-serif;
+}
+
+body {
+  font-family:Arial;
+  font-size: 1em; /* 16px / 16px */
+	color: #353738;
+}
+
+hr {
+	margin: 1em 0;
+	height: 1px;
+	background: #d3d3d3;
+	border: none;
+	width: 100%;
+	clear: both;
+}
+
+a, a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+div.band .columns {
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+header.band {
+	background: #bfbfbf; /* #4b371f */;
+	color: white;
+	text-align: center;
+	padding: 10% 0 15% 0;
+}
+
+
+h1, h2, h3 {
+	font-family: Arial;
+	font-weight: 700;
+	text-align: center;
+}
+
+header.band h1 {
+	font-size: 3em;
+	line-height: 1em;
+	margin-bottom: 1em;
+}
+
+h1 { 
+     text-shadow: 2px 2px 2px #000000;
+}
+
+h2 {
+	font-size: 1.6em;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+h3 {
+	font-size: 1.1em;
+	font-family: Arial;
+	font-weight: 700;
+	margin-bottom: 1em;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+
+a.button {
+	background: #e33f0c;
+	text-align: center;
+	padding: .5em 1em;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	box-shadow: 0 0.2em 0 #ab3009;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+		
+	/*transition cross-browser stuff*/
+	-webkit-transition: background 0.2s ease-out;  /* Safari 3.2+, Chrome */
+	-moz-transition: background 0.2s ease-out;  /* Firefox 4-15 */
+	-o-transition: background 0.2s ease-out;  /* Opera 10.5Ð12.00 */
+	transition: background 0.2s ease-out;  /* Firefox 16+, Opera 12.50+ */
+}
+
+a.button:hover {
+	background: #ab3009;
+}
+
+footer {
+	font-size: 0.8em;
+	text-align: center;
+}
+
+.last a {
+	margin: 0 1em;	
+}
+
+.social-tuts {
+	color: #E36316;
+}
+
+.social-dribbble {
+	color: #c5376d;
+}
+
+.social-facebook {
+	color: #3B5998;
+}
+
+/*as we don't haver many media queries, we'll stick them all here*/
+@media only screen and (min-width: 767px) { 
+	
+	body {
+    font-family:Arial;
+		font-size: 1.125em; /* 18px / 16px */
+		line-height: 1.7em;
+	}
+	
+	div.band .columns {
+		padding-top: 2em;
+		padding-bottom: 2em;
+	}
+
+	header.band {
+		background-image:url(../images/background01.jpg);
+		background-size: 100%;
+    background-repeat: no-repeat;
+	}
+	
+	header.band h1 {
+		font-size: 3.25em; /*52 / 16*/
+	}
+	
+	a.button {
+		padding: .75em 1.5em;
+	}
+	
+	footer {
+		text-align: left;
+	}
+
+	.last {
+		text-align: right;
+	}
+
+}
